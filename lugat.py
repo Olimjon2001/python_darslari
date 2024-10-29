@@ -15,8 +15,31 @@
 # print(talaba)
 
 
-talaba = {}
-talaba['ism']="ehsmatov toshmat"
-talaba['yoshi']=20
-talaba['kurs']=2
-print(talaba)
+# talaba = {}
+# talaba['ism']="ehsmatov toshmat"
+# talaba['yoshi']=20
+# talaba['kurs']=2
+# print(talaba)
+# #print(f"talaba{talaba['ism'].title()} {talaba['kurs']} kursda {talaba['yoshi']} yoshda")
+# talaba['kurs']=5
+# print(f"talaba{talaba['ism'].title()} {talaba['kurs']} kursda {talaba['yoshi']} yoshda")
+
+# talaba_1={'isim':'murod eshmatov','yosh':20,'t_yil':2000}
+# #print(talaba_1)
+# del talaba_1['t_yil']
+# print(talaba_1)
+
+
+
+#lugatlarni bi nechra qatorlarga yozish
+telefonlar={
+    'Rsad':'Redmi',
+    'Jurabek':'Samsung',
+    'Marjona':'Iphone',
+    'Dilso`z':'Iphone15'
+}
+# get metod
+tel=telefonlar['Dilso`z']
+#print(f"Dilso`zni telefoni :{tel}")
+tel=telefonlar.get('hasan','Bunday isim mavjud emas')
+print(tel)
